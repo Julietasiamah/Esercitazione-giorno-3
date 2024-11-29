@@ -40,5 +40,8 @@ ul li a::before {
 ul li a::after {
     content: "<=";
 }
-
+article h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
 
