@@ -17,8 +17,7 @@ Esempio: let nome = "Fabio"
 Poi ce il dato numerico che viene riportato senza apici, e per indicare la decimale bisogna inserire il . (punto).
 Esempio: let numero = 15
 Abbiamo anche i dati Booleani che sono true e false, dove true è uguale a 1 e false uguale a 0 e in genere serve per poter dare un indicazione al nostro codice.
-Ci sono ache altri datatype come per esempio Null che è l'assenza intenzionale di un valore.
-
+Ci sono ache altri datatype come per esempio Null che è l'assenza intenzionale di un valore e Undifined indica l'assenza di un valore, una variabile che non è mai stata indicata. 
 */
 
 /* ESERCIZIO 2
@@ -26,8 +25,8 @@ Ci sono ache altri datatype come per esempio Null che è l'assenza intenzionale 
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let myName= "Juliet"
-console.log (myName)
+let myName= "Juliet";
+console.log ("Il mio nome è" + myName)
 
 
 /* ESERCIZIO 3
@@ -47,7 +46,7 @@ console.log (number1 + number2);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let x=12
-
+console.log ("La variabile di nome x contiene il valore" + x )
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
