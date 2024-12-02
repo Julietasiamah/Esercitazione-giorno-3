@@ -81,7 +81,4 @@ console.log (x-y)
 let name1= "john"
 let name2="John"
 console.log (name1 === name2)
-
-let name3= "john"
-let name4= "john"
-console.log (name3 === name4)
+console.log (name1 === name2) (tolowercase)//Tolowercase serve per trasformare il carrattere da maiuscola a minuscola//
