@@ -3,10 +3,12 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const num1 = 30;
-const num2= 20;
+let num1 = 30;
+let num2= 20;
 if (num1 > num2) {
 console.log ("Il numero più grande è 30")
+} else if (num1 < num2) {
+  console.log ("il numero" + num1 + "è più piccolo")
 }
 
 /* ESERCIZIO 2
@@ -14,10 +16,10 @@ console.log ("Il numero più grande è 30")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const num3 = 5;
-const num4 = 1;
-if (num3 === num4) {
-  console.log ("not equal")
+let num3 = 5;
+let num4 = 1;
+if (num3 !== num4) {
+  console.log (num3 + "not equal" + num4)
   
 }
 /* ESERCIZIO 3
@@ -25,16 +27,28 @@ if (num3 === num4) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let num7 = 8
+if (num7 % 5===0){
+  console.log (num7 + "divisibile per 5")
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const type=8
-if (type === 8){
-  console.log ("valore corretto")
-} 
+let y1=10;
+let x1=20;
+
+if (y1 === 8 || x1===8 || y1 + x1 ===8 || yi-x1 === 8) {
+  console.log ("verificato")
+}
+
+
+
+
+
+  
 
 
 
@@ -45,20 +59,32 @@ if (type === 8){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const totalShoppingCart = 100
-if (totalShoppingCart >= 50) {
-  console.log ("Ha diritto a usufruire della spedizione gratuita")
-} else {
-  console.log ("deve pagare la spedizione di 10 euro")
+let totalShoppingCart = 100;
+let shipping=10;
+let totalecarello = totalShoppingCart ;
+
+if (totalShoppingCart > 50) {
+  console.log ("non deve pagare la spedizione di 10 euro", totalShoppingCart)
 }
+
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
-*/
+ *0.8 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const blackfriday = 20
+let totalShoppingCart2 = 100
+let shipping2 = 10
+let totalecarello2 = totalShoppingCart2 ;
+
+if (totalShoppingCart *0.8 > 50) {
+  console.log ("se" + totalShoppingCart2 > 50 )
+}
+
+
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -67,10 +93,17 @@ const blackfriday = 20
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numbers= [6, 7, 10];
-console.log (numbers,  typeof numbers)
-numbers.sort ()
-console.log (numbers)
+let s1=10
+let s2= 50
+let s3=30
+
+if (s1 <= s3)
+  if (s2 >= s1) {
+    console.log (s2,s3,s1)
+  } 
+
+
+
 
 
 
@@ -80,6 +113,8 @@ console.log (numbers)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let num8= 4
+
+
 console.log (num8, typeof num8)
 
 /* ESERCIZIO 9
@@ -93,7 +128,7 @@ if (num10 % 2 === 10){
 }
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
   let val = 7
   if (val < 10) {
       console.log("Meno di 10");
@@ -102,7 +137,7 @@ if (num10 % 2 === 10){
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
