@@ -41,7 +41,45 @@ ul li a::after {
     content: "<=";
 }
 article h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
+.grigio {
+    color: grey;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+main, aside {
+    background-color: white;
+    padding: 1em;
+    margin: auto;
+}
+
+.p1{
+    padding: 1em;
+}
+
+article strong {
+    color: rgb(94, 17, 165);
+    font-weight: bold;
+}
+
+.p2 {
+    padding: 0.5em
+}
+
+footer {
+    background-color: rgb(7, 93, 93);
+    color: white;
+}
+footer a {
+    color: purple;
+    font-weight: bold;
+}
+
+footer p
+{
+    padding: 1em;
+}
