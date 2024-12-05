@@ -40,12 +40,12 @@ console.log (crazySum (2,3))
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+//return Math.abs (num3 -19)
 function crazyDiff (num3){
 if (num3 > 19)
-    return (num3 - 19)*3
+    return Math.abs (num3 - 19)*3
 else {
-    return (num3 - 19)
+    return Math.abs (num3 - 19)
 }
 }
 console.log (crazyDiff (25,19))
@@ -60,9 +60,7 @@ console.log (crazyDiff (25,19))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 function boundary (n){
-    if (n >= 20 && n <= 100 )
-        return (true)
-    else if (n === 400)
+    if (n >= 20 && n <= 100 || n === 400 )
         return (true)
     else {
         return (false)
@@ -80,15 +78,12 @@ console.log (boundary (400))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let epify = function (stringa){
-    for (let i = 0; i < epify.length; i++) {
-        const element = epify[i];
-        epify.push = 'Epicode' 
-        if ('Epicode' === (stringa)) {
-            return (stringa)
-            
-        }  
+    return 'EPICODE' + stringa
+    if (stringa.startsWith ('EPICODE')){
+        return stringa
     }
-}
+}       
+        
 let result = epify ('Epicode Lessons')
 console.log (result)
 
@@ -103,10 +98,10 @@ console.log (result)
 
 
 function check3and7 (num4){
-    if (num4 % 3 || num4 % 7) {
-        return ('Accettato')
+    if (num4 > 0 && (num4 % 3 === 0 || num4 % 7 === 0)) {
+        return (true)
     } else {
-        return ('Non accettato')
+        return (false)
     }
 }
 
@@ -120,7 +115,7 @@ console.log (check3and7 (10))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function reverseString (lett1){
-    
+        
 }
 
 /* ESERCIZIO 8
