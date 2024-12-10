@@ -3,12 +3,12 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num1 = 30;
-let num2= 20;
+let num1 = 15
+let num2 = 45
 if (num1 > num2) {
-console.log ("Il numero più grande è 30")
-} else if (num1 < num2) {
-  console.log ("il numero" + num1 + "è più piccolo")
+  console.log (false)
+} else {
+  console.log (true)
 }
 
 /* ESERCIZIO 2
@@ -16,32 +16,36 @@ console.log ("Il numero più grande è 30")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num3 = 5;
-let num4 = 1;
-if (num3 !== num4) {
-  console.log (num3 + "not equal" + num4)
+let num3 = 3
+
+if (num3 !== 5) {
+  console.log ('Not equal')
   
 }
 /* ESERCIZIO 3
-  Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
+  Scrivi un algoritmo che mostri "divisibile per 5"
+   in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num7 = 8
-if (num7 % 5===0){
-  console.log (num7 + "divisibile per 5")
+let num4 = 8
+if (num4 % 5===0){
+  console.log (num4 + "divisibile per 5")
 }
 
 /* ESERCIZIO 4
-  Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
+  Scrivi un algoritmo per verificare che, dati due numeri interi, 
+  il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let y1=10;
-let x1=20;
 
-if (y1 === 8 || x1===8 || y1 + x1 ===8 || yi-x1 === 8) {
-  console.log ("verificato")
+let num5 = 2
+let num6 = 7
+
+if (num5 === 8 || num6 === 8 || num5 + num6 === 8 || num5 - num6 === 8) {
+  console.log ( 'verificato')
+  
 }
 
 
@@ -53,25 +57,31 @@ if (y1 === 8 || x1===8 || y1 + x1 ===8 || yi-x1 === 8) {
 
 
 /* ESERCIZIO 5
-  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
-  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
+  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in 
+  una variabile "totalShoppingCart".
+  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha 
+  diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 100;
-let shipping=10;
-let totalecarello = totalShoppingCart ;
+let totalShoppingCart = 150
+let promotion = 50
+let shipping = 10
 
-if (totalShoppingCart > 50) {
-  console.log ("non deve pagare la spedizione di 10 euro", totalShoppingCart)
+if (totalShoppingCart > promotion){
+  console.log ('Ha diritto alla spedizione gratuita')
+} else if (totalShoppingCart <= promotion) {
+  console.log ('Non ha diritto a spedizione gratuita')
+} else {
+  console.log ('Deve pagare' + totalShoppingCart + shipping)
 }
-
 
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
-  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
+  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando
+  come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
  *0.8 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -80,7 +90,7 @@ let shipping2 = 10
 let totalecarello2 = totalShoppingCart2 ;
 
 if (totalShoppingCart *0.8 > 50) {
-  console.log ("se" + totalShoppingCart2 > 50 )
+  console.log ('Promozione attivata')
 }
 
 
@@ -88,20 +98,23 @@ if (totalShoppingCart *0.8 > 50) {
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
-  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
+  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il 
+  loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let s1=10
-let s2= 50
-let s3=30
 
-if (s1 <= s3)
-  if (s2 >= s1) {
-    console.log (s2,s3,s1)
-  } 
+let num7 = 15
+let num8 = 30
+let num9 = 25
 
+if (num7 >= num8) {
+  console.log( num7, num9, num8)  
+} else if ( num8 <= num8) {   
+} else {
+  console.log( num7, num9, num8) 
+}
 
 
 
@@ -112,13 +125,14 @@ if (s1 <= s3)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num8= 4
+let num11= 4
 
 
-console.log (num8, typeof num8)
+console.log (num11, typeof num11)
 
 /* ESERCIZIO 9
-  Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
+  Crea un algoritmo per controllare se un numero fornito sia 
+  pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -128,7 +142,8 @@ if (num10 % 2 === 10){
 }
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio c
+  orretto in ogni circostanza.*/
   let val = 7
   if (val < 5) {
       console.log("Meno di 5");
@@ -149,9 +164,11 @@ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
-  city: "Toronto"
+  
 }
-console.log (me.skills, me.name, me.lastName)
+
+me.city= 'toronto'
+console.log (me.skills, me.name, me.lastName, me.city)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -164,7 +181,8 @@ delete me.lastName
 console.log (me)
 
 /* ESERCIZIO 13
-  Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
+  Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere 
+  l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -176,13 +194,21 @@ console.log (me.skills)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numeri2 = [1,2,3,4,5,6,7,8,9,10]
-console.log (numeri2)
+let num12 = ['' ]
+
+console.log (num12)
+
+num12 = [1,2,3,4,5,6,7,8,9,10]
+console.log (num12)
+
+
+
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-numeri2.splice (9,1,100)
-console.log (numeri2)
+ num12.splice (-1,1, 100)
+
+ console.log (num12)

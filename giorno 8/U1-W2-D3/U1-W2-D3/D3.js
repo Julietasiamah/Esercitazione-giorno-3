@@ -104,9 +104,10 @@ const starWarsCharacters = [
 /* ESERCIZIO 1
   Crea una variabile chiamata "charactersNames" e assegnale un array vuoto
 */
+let charactersNames = [ ]
 
-let charactersNames= [];
 console.log (charactersNames)
+
 
 /* ESERCIZIO 2
   Utilizzando un ciclo for, cicla l'array "starWarsCharacters".
@@ -115,12 +116,13 @@ console.log (charactersNames)
   Come risultato dovresti ottenere qualcosa di simile: ["Luke Skywalker", "C-3PO", "R2-D2", etc..]
 */
 
-  for (let i=0; i < starWarsCharacters.length; i++ ) {
-    let obj = starWarsCharacters [i];
-    charactersNames.push(obj.name)
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  let obj = starWarsCharacters [i];
+  
+  charactersNames.push (obj.name)
+  
+  console.log (charactersNames)
 }
-    console.log (charactersNames)
-
 
 
 
@@ -132,17 +134,18 @@ console.log (charactersNames)
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci 
   al suo interno tutti gli oggetti femminili.
 */
-let femaleCharacters= [];
-for (const key in starWarsCharacters) {
-    let obj = starWarsCharacters[key];
+let femaleCharacters = [ ]
 
-    if (obj.gender === "female"){
-      femaleCharacters.push (obj)
-    }
-    
-  }
+for (let i = 0; i < starWarsCharacters.length; i++) {
+      let obj = starWarsCharacters[i];
 
+      if (obj.gender === "female") {
+        femaleCharacters.push (obj)
+  
+}
+}
 console.log (femaleCharacters)
+
 
 
 /* ESERCIZIO 4
